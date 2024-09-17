@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['female', 'male']
+
+roboflow:
+  workspace: msu-ugnh2
+  project: pupa2-nzukz
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/msu-ugnh2/pupa2-nzukz/dataset/1
